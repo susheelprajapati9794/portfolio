@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Susheel Prajapati — software engineer & creative developer. Java, Spring Boot, databases, DSA and the web.">
+  <meta name="theme-color" content="#0a0a10">
+  <title>Susheel — Engineer & Creative Developer</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.4/dist/lenis.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="preloader" id="preloader">
+    <span class="preloader-mark">SP®</span>
+    <div class="preloader-count" id="counter">00</div>
+    <div class="preloader-bar"><span></span></div>
+    <p class="preloader-label">LOADING EXPERIENCE</p>
+  </div>
+
+  <canvas id="space"></canvas>
+  <div class="grain"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="nav">
+    <a href="#home" class="logo">Susheel<span>.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#toolkit">Toolkit</a>
+      <a href="#contact" class="nav-cta">Let's Talk ↗</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+        <!-- HERO -->
+            <section class="hero" id="home">
+                  <div class="hero-inner">
+                          <div class="hero-content">
+                                    <p class="eyebrow"><span class="status-dot"></span> Available for opportunities</p>
+                                              <h1 class="hero-title">
+                                                          <span class="line-1">Building</span>
+                                                                      <span class="line-2 serif with-line">with</span>
+                                                                                  <span class="line-3">Intent<span class="accent">.</span></span>
+                                                                                            </h1><br>
+                                                                                                      <p class="hero-sub">Software engineer focused on clean backend systems, databases and the web — turning good code into great products.</p>
+                                                                                                                <div class="hero-actions">
+                                                                                                                            <a href="#work" class="btn btn-primary">View Work ↓</a>
+                                                                                                                                        <a href="/assets/resume.pdf" class="btn btn-ghost" download>Download Résumé</a>
+                                                                                                                                                  </div>
+                                                                                                                                                            <div class="hero-meta">
+                                                                                                                                                                        <span>05 / 2026</span>
+                                                                                                                                                                                    <span>GHAZIABAD, IN</span>
+                                                                                                                                                                                                <span>OPEN TO WORK</span>
+                                                                                                                                                                                                          </div>
+                                                                                                                                                                                                                  </div>
+        <div class="hero-photo" data-tilt>
+          <div class="photo-frame">
+            <span class="photo-tag">PORTRAIT — 2026</span>
+            <span class="photo-ring"></span>
+            <span class="orbit-ring orbit-a"><i class="sat sat-1"></i></span>
+            <span class="orbit-ring orbit-b"><i class="sat sat-2"></i></span>
+            <span class="bubbles" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </span>
+            <img src="assets/profile.png" alt="Susheel Prajapati">
+            <div class="photo-caption"><span>SP</span><span>SOFTWARE ENGINEER</span></div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll down">
+        <span>SCROLL</span><span class="line"></span><span>↓</span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2>About</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-statement">
+          <p class="lead">I take systems apart, understand why they work, then build cleaner versions.</p>
+        </div>
+        <div class="about-body">
+          <p>I'm Susheel — a 5th-semester Computer Science student at ABES Engineering College. I work primarily with Java, JDBC, Spring Boot and MySQL, while strengthening Data Structures & Algorithms and modern frontend development.</p>
+          <div class="stats">
+            <div class="stat"><strong>7.9</strong><span>CGPA</span></div>
+            <div class="stat"><strong>2024–28</strong><span>B.TECH CSE</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work" id="work">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2>Selected Work</h2>
+      </div>
+      <div class="work-list">
+        <article class="work-card">
+          <div class="work-visual vis-social">
+            <span class="vis-num">01</span>
+            <div class="orbit o1"></div>
+            <div class="orbit o2"></div>
+            <div class="core"></div>
+          </div>
+          <div class="work-info">
+            <div class="work-meta"><span>FULL STACK / IN PROGRESS</span><span>2026</span></div>
+            <h3>Social Media App</h3>
+            <p>Modern social platform in active development — architecture, modules and product flows built from the ground up.</p>
+            <div class="chips"><span>JAVA</span><span>SPRING BOOT</span><span>MYSQL</span></div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-visual vis-bank">
+            <span class="vis-num">02</span>
+            <div class="card-mock"><i>SECURE</i><strong>₹ 48,920</strong><small>TRANSACTION SYSTEM</small></div>
+          </div>
+          <div class="work-info">
+            <div class="work-meta"><span>JAVA / DATABASE</span><span>2025</span></div>
+            <h3>Banking System</h3>
+            <p>Transactional banking app using Java, JDBC and MySQL — prepared statements, PIN auth and rollback consistency.</p>
+            <div class="chips"><span>JAVA</span><span>JDBC</span><span>MYSQL</span></div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-visual vis-hospital">
+            <span class="vis-num">03</span>
+            <div class="cross">+</div>
+          </div>
+          <div class="work-info">
+            <div class="work-meta"><span>JAVA / CRUD</span><span>2025</span></div>
+            <h3>Hospital Management</h3>
+            <p>Console-based system for appointments, doctor coordination and patient registry with complete CRUD operations.</p>
+            <div class="chips"><span>JAVA</span><span>JDBC</span><span>CRUD</span></div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-visual vis-store">
+            <span class="vis-num">04</span>
+            <div class="store-mock"><span>BOOKS</span><strong>CRUD / API</strong><i>SPRING</i></div>
+          </div>
+          <div class="work-info">
+            <div class="work-meta"><span>BACKEND</span><span>2025</span></div>
+            <h3>Simple Book Store</h3>
+            <p>Modular inventory application using Spring Boot beans, controllers, service and repository layers for CRUD management.</p>
+            <div class="chips"><span>SPRING BOOT</span><span>REST</span><span>JAVA</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- TOOLKIT -->
+    <section class="toolkit" id="toolkit">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2>Toolkit</h2>
+      </div>
+      <div class="toolkit-grid">
+        <div class="toolkit-card">
+          <span class="toolkit-label">LANGUAGES</span>
+          <ul><li>Java</li><li>Python</li><li>C / C++</li><li>JavaScript</li></ul>
+        </div>
+        <div class="toolkit-card">
+          <span class="toolkit-label">FRAMEWORKS</span>
+          <ul><li>Spring Boot</li><li>JDBC</li><li>NumPy / Pandas</li><li>Matplotlib / Tkinter</li></ul>
+        </div>
+        <div class="toolkit-card">
+          <span class="toolkit-label">FOUNDATIONS</span>
+          <ul><li>OOP</li><li>Data Structures</li><li>Database Mgmt</li><li>Web Dev</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="education">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2>Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-row">
+          <span class="tl-year">2024—2028</span>
+          <strong>B.Tech — Computer Science & Engineering</strong>
+          <em>ABES Engineering College</em>
+        </div>
+        <div class="timeline-row">
+          <span class="tl-year">COMPLETED</span>
+          <strong>Class XII — 74.6%</strong>
+          <em>Sardar Patel School, Hamirpur</em>
+        </div>
+        <div class="timeline-row">
+          <span class="tl-year">COMPLETED</span>
+          <strong>Class X — 84%</strong>
+          <em>Sahu International School, Kabrai</em>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONNECT -->
+    <section class="connect" id="connect">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2>Connect</h2>
+      </div>
+      <div class="connect-grid">
+        <a href="mailto:Susheelprajapati9794@gmail.com" class="connect-card">
+          <span class="c-icon">✉</span>
+          <h3>Email</h3>
+          <p>Susheelprajapati9794@gmail.com</p>
+        </a>
+        <a href="https://linkedin.com/in/susheelprajapati9794" class="connect-card">
+          <span class="c-icon">in</span>
+          <h3>LinkedIn</h3>
+          <p>Connect professionally</p>
+        </a>
+        <a href="https://github.com/susheelprajapati9794" class="connect-card">
+          <span class="c-icon">⚙</span>
+          <h3>GitHub</h3>
+          <p>Explore my projects</p>
+        </a>
+        <a href="https://leetcode.com/u/Susheelprajapati9794/" class="connect-card">
+          <span class="c-icon">💻</span>
+          <h3>LeetCode</h3>
+          <p>Practice coding problems</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <p class="eyebrow">Let's build something</p>
+      <h2 class="contact-title">Have an idea?<br><span class="serif">Let's talk.</span></h2>
+      <a class="contact-mail" href="mailto:Susheelprajapati9794@gmail.com">Susheelprajapati9794@gmail.com <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 SUSHEEL PRAJAPATI</span>
+    <!-- <span>GHAZIABAD, INDIA</span> -->
+    <!-- <span>JAVA · WEB · SYSTEMS</span> -->
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
